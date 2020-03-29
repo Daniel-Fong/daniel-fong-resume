@@ -1,0 +1,181 @@
+body {
+    line-height: 1;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(76, 50, 82);
+    text-align: center;
+    width: 100%;
+    margin-top: -2em;
+}
+
+header h1 {
+    color: rgb(45, 122, 129);
+    text-shadow: 1px 1px rgb(205, 237, 240);
+    font-family: 'Voces', cursive;
+    padding-top: .5em;
+    font-size: 3em;
+}
+
+.bot-row {
+    border-radius: 1em;
+    width: 22em;
+    height: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    vertical-align: middle;
+    align-items: center;
+    margin-top: -1.5em;
+}
+
+.bot-row a {
+    margin-left: .5em;
+    margin-right: .5em;
+    color: blue;
+}
+
+.bot-row a:visited {
+    color: blue;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #60748F;
+    text-shadow: 1px 1px rgb(47, 174, 184);
+    font-weight: 500;
+    font-size: 1.4em;
+    letter-spacing: 3px;
+}
+
+h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.dates {
+    width: 25%;
+    text-align: right;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.titles {
+    width: 75%;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: -1.5em;
+    margin-top: -1em;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-weight: 600;
+    color: #4c5058;
+}
+
+.hr-section {
+    margin-top: 0;
+    margin-bottom: 5px;
+    border-top-color: #4c5058;
+}
+
+.content {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+ul {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: block;
+    list-style-type: disc;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    color: #4c5058;
+    margin-bottom: 2px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.position {
+    display: inline-block;
+    font-size: 0.95em;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.location {
+    display: inline-block;
+}
+
+.name {
+    display: inline-block;
+}
+
+main {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.linkedin {
+    color: rgb(233, 222, 163);
+}
+
+.github, .gh {
+    color:rgb(224, 156, 156);
+}
+
+.briefcase {
+    color: rgb(185, 141, 211);
+}
+
+.envelope {
+    color: rgb(141, 199, 199);
+}
+
+.phone {
+    color: rgb(183, 226, 164);
+}
+
+.linkedin:hover {
+    color: rgb(236, 234, 218);
+}
+
+.github:hover, .gh:hover {
+    color:rgb(224, 184, 184);
+}
+
+.briefcase:hover {
+    color: rgb(197, 170, 212);
+}
+
+.envelope:hover {
+    color: rgb(177, 199, 199);
+}
+
+.phone:hover {
+    color: rgb(226, 233, 223);
+}
+/* 
+@media screen and (max-width: 1000px) {
+    .titles {
+        font-size: 40px;
+    }
+} */
