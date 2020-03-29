@@ -8,6 +8,7 @@ header {
     text-align: center;
     width: 100%;
     margin-top: -2em;
+    margin-bottom: .5em;
 }
 
 header h1 {
@@ -132,6 +133,7 @@ a {
 main {
     margin-right: 5%;
     margin-left: 5%;
+    margin-bottom: 1em;
 }
 
 .linkedin {
@@ -173,9 +175,16 @@ main {
 .phone:hover {
     color: rgb(226, 233, 223);
 }
-/* 
-@media screen and (max-width: 1000px) {
-    .titles {
-        font-size: 40px;
+
+@media screen and (max-width: 850px) {
+    h3 {
+        margin-top: 1em;
     }
-} */
+    .projects {
+        margin-top: 0;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+}
